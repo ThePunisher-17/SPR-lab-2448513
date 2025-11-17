@@ -1,0 +1,19 @@
+Lab 3 — Brief Inference Report
+
+- Clear male voice: Best method (heuristic) → Whisper; Notes → OK
+- Clear female voice: Best method (heuristic) → Whisper; Notes → OK
+- Fast speech: Best method (heuristic) → Whisper; Notes → OK
+- Noisy background: Best method (heuristic) → Whisper; Notes → OK
+- Soft voice: Best method (heuristic) → Whisper; Notes → OK
+
+General Observations:
+1) Offline Whisper generally returns robust full-sentence outputs when audio is clear.
+2) Vosk provides offline recognition with optional word-level confidences; accuracy is model-dependent.
+3) Google Web Speech (online) can perform well but is subject to service availability and network quality.
+4) Error handling covers unclear audio and service unavailability with explicit messages.
+
+Future Improvements:
+- Add domain language model adaptation (Vosk) and prompt conditioning (Whisper).
+- Apply VAD, denoising, and automatic gain control for noisy/soft inputs.
+- Implement WER-based evaluation against reference transcripts when available.
+- Provide real-time streaming pipelines and device-control intent parsing as an extension.

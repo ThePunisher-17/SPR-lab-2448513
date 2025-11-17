@@ -1,0 +1,6 @@
+Audio Type,Whisper Output,Vosk Output,Google API Output,Notes on Accuracy
+Clear male voice,Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>,i believe you're just talking nonsense  [avg_conf=0.97],I believe you are just talking nonsense,OK
+Clear female voice,Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>,i believe you're just talking nonsense  [avg_conf=0.97],I believe you are just talking nonsense,OK
+Fast speech,Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>,i believe you're just talking nonsense  [avg_conf=0.97],I believe you are just talking nonsense,OK
+Noisy background,Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>,i believe you're just talking nonsense  [avg_conf=0.97],I believe you are just talking nonsense,OK
+Soft voice,Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>,i believe you're just talking nonsense  [avg_conf=0.97],I believe you are just talking nonsense,OK
